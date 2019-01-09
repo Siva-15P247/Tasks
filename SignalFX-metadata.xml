@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://accounts.csez.zohocorpin.com/saml2/idp/6338681"><md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICkTCCAXkCBgFoMXa5BTANBgkqhkiG9w0BAQsFADAMMQowCAYDVQQDEwFBMB4XDTE5MDEwODA3
+MTQ1MFoXDTIyMDEwODA3MTQ1MFowDDEKMAgGA1UEAxMBQTCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBALIuNaznUysJDrVlMMunaCN4Bv3Zz4Q1lmiTzGsHo8VCnupX68fiifspMBDBMAWE
+KCe5w0EDaZxWrYxhO+NErM4cZBzA8ofQIw1satSAH9KnIPqSrvvMNLF8L2PIBM8vHPuItoPAfRXR
+lotj5OQbYlpLqc5R2r8GBNyvEhABCpLDpvqSG89mbrkkVlZLh4Q2MqxHlrytw3xQUWWNlTPH+9IH
+ipjD3fxh9+kfBUnQgpdDAIaTLG13JM2DJUMrKOkMSLgJgMOiVPk0L1Z9RukpjRnzmsKnyJq5w3kF
+iB0qw0aP9zzO6ZuaPgptitcJ1b0NaPOZgWV0I/eLLOG0b1SXCWkCAwEAATANBgkqhkiG9w0BAQsF
+AAOCAQEArw/e9NkvLwQwAFYhay1l7Be5sCWD5SW4WkYRQoouivAypPZ3MuEJj0HqHQORaxheUoYh
++7T4QocXPx88GFt8yMiIeruiGaCpY6tfq5G+o6AZXSCFQRatiY+wEY5C09ro7F7F1/EBOWjYSx01
+BhkruKy+F2whQeSK9vaFnId5qOT4Gms9IPwaG0LRYV6P3njzxyOJuEeBluEHmoEBQ+/bpddOXcU5
+BQiZFYuW6/mLCHPYT8HaXYf0/yDyWjGj0QfKnKQFKpk3bt35TkAYwfvSxm5PqeI3EiEUZ5fz4phF
+1SwzngygOD00yGmUjHDNZkYXXcWMk1sYhqaGeYPTu0mvyA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://siva-pt2223.csez.zohocorpin.com:8443/saml-logout?appid=6338681"/><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siva-pt2223.csez.zohocorpin.com:8443/sp-saml-login?appid=6338681"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://siva-pt2223.csez.zohocorpin.com:8443/sp-saml-login?appid=6338681"/></md:IDPSSODescriptor></md:EntityDescriptor>
